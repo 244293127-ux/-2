@@ -1,11 +1,78 @@
-<div align="center">
+# 小爱管家：多用户家庭智能助手 (XiaoAi Butler)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+> **具备三段式工作流的极简温暖风智能管家交互原型**
 
-  <h1>Built with AI Studio</h2>
+小爱管家是一款专为多用户家庭设计的空间智能操作系统原型。它通过“感知-决策-执行”的三段式工作流，精准识别不同家庭成员在重叠空间中的个性化需求，并提供无感、温暖的智能化协同方案。
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+![Version](https://img.shields.io/badge/version-15.0-orange)
+![Tech Stack](https://img.shields.io/badge/tech-React%20%7C%20Tailwind%20%7C%20Framer%20Motion-blue)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+---
 
-</div>
+## ✨ 核心特性
+
+### 1. 四步协同工作流 (The Workflow)
+系统界面直观展示了从数据到执行的全链路过程：
+- **STEP 1 习惯特征库**：深度记忆用户 A (🧑‍💻) 与用户 B (👩‍⚖️) 的生活习惯、职业背景与作息偏好。
+- **STEP 2 实时环境输入**：动态感知当前时间、空间分布及成员的实时生理/心理状态。
+- **STEP 3 情境决策引擎**：基于 AI 逻辑，在需求冲突时自动生成最优协同策略（如：深夜归家守护、晨间无感接力）。
+- **STEP 4 终端双端触达**：通过移动端与车载终端，以极简通知形式精准推送交互建议。
+
+### 2. 极简温暖美学
+- **配色方案**：以极简白为底，辅以活力橙 (`#FF6900`) 作为品牌点睛色，营造科技感与家温度的平衡。
+- **卡片设计**：采用微光浅橙色策略卡片，去装饰化排版，聚焦核心决策信息。
+- **动效体验**：手机端模拟 iOS 级顶部下拉通知 (`slideDownFade`)，提供丝滑的交互反馈。
+
+### 3. 典型应用场景
+- **🌙 深夜归家**：A 疲惫归家，B 深度睡眠。系统自动预热车内空调并开启家端静默夜灯。
+- **🌅 晨间接力**：A 刚醒需要咖啡，B 仍在熟睡。系统静音启动厨房设备，保持卧室静谧。
+- **☀️ 空间协同**：书房专注工作与客厅瑜伽练习的完美共存，互不打扰。
+
+---
+
+## 🛠️ 技术实现
+
+- **前端框架**：React 18
+- **样式处理**：Tailwind CSS (Utility-first CSS)
+- **动画引擎**：Framer Motion (motion/react)
+- **图标库**：Lucide React
+- **响应式布局**：支持桌面端全景工作流展示与移动端模拟器交互。
+
+---
+
+## 🚀 快速开始
+
+### 环境要求
+- Node.js 18+
+- npm 或 yarn
+
+### 安装与运行
+1. 克隆仓库
+   ```bash
+   git clone https://github.com/your-username/xiaoai-butler.git
+   ```
+2. 安装依赖
+   ```bash
+   npm install
+   ```
+3. 启动开发服务器
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📱 交互说明
+1. 在 **STEP 2** 中切换不同的“时间轴”场景。
+2. 点击 **“🚀 开始系统计算”** 触发决策逻辑。
+3. 在 **STEP 3** 查看 AI 生成的综合策略。
+4. 在 **STEP 4** 切换 User A/B 标签页，查看手机端的模拟推送通知。
+
+---
+
+## 📄 许可证
+本项目采用 MIT 许可证。
+
+---
+
+*Designed with ❤️ for Future Spatial Intelligence.*
